@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Srijan's Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffe6e6;
+      color: #222;
+      margin: 0;
+    }
+
+    nav {
+      background: #155b4f;
+      padding: 12px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .top {
+      background: #1d7a6b;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .top img {
+      width: 140px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    .top h1 {
+      margin: 15px 0 5px;
+      font-size: 36px;
+    }
+
+    .top p {
+      font-size: 17px;
+    }
+
+    .change-theme {
+      margin-top: 20px;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: white;
+      color: #222;
+    }
+
+    .content {
+      width: 85%;
+      margin: 30px auto;
+    }
+
+    .box {
+      background: rgb(194, 192, 192);
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .box h2 {
+      margin-top: 0;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .skills span {
+      background: #e8eeee;
+      padding: 7px 12px;
+      border-radius: 5px;
+      background-color: antiquewhite;
+    }
+
+    .contact a {
+      color: #1d7a6b;
+    }
+
+    .bottom {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .top h1 {
+        font-size: 28px;
+      }
+
+      .content {
+        width: 90%;
+      }
+
+      .box {
+        padding: 20px;
+      }
+      
+      nav a {
+        margin: 0 8px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav id="home">
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">My Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="top">
+
+    <img src="./static/images/Srijan's Profile Picture.jpeg" alt="Profile photo">
+
+    <h1>SRIJAN</h1>
+
+    <h3>Computer science student learning web development.</h3>
+
+  </div>
+
+  <div class="content">
+
+    <div class="box" id="about">
+      <h2>About Me</h2>
+
+      <p>
+        Hello!! I'm Srijan, a CS student passionate about front-end design and web development.
+         I spend my time coding in HTML, CSS, JavaScript, and Java, constantly refining how user interfaces look and feel.
+          I'm eager to join a team where I can work on real-world projects, learn from people smarter than me, and turn what I learn into great user experiences.
+      </p>
+
+      <p>
+      Currently, I’m focused on building clean, practical projects using HTML, CSS, and JavaScript.
+       I'm actively looking for opportunities to team up with seasoned engineers, gain hands-on experience, and take on new technical challenges.
+      </p>
+    </div>
+    <div class="box" id="education">
+        <h2>Education</h2>
+
+        <h3>Scaler School Of Technology</h3>
+        <span>UnderGraduate in Computer And Science & Artificial Intelligence</span>
+        <h3>IIT Madras</h3>
+        <span>BS in Data Science And Applications</span>
+    </div>
+
+    <div class="box" id="skills">
+      <h2>My Skills</h2>
+
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>Github</span>
+        <span>Java</span>
+      </div>
+    </div>
+
+    <div class="box contact" id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        Email:
+        <a href="#contact">srijan0409@gmail.com</a>
+      </p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/" target="_blank">
+          My GitHub
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <div class="bottom">
+    <p>© 2026 Srijan. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
